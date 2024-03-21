@@ -1,0 +1,124 @@
+*{
+    margin: 0px;
+    font-family: 'inter';
+}
+
+#menusuperior{
+    width: 1440px;
+    height: 475px;
+    background-color: #303030;
+    color: #fff;
+}
+
+#titulo-menusuperior{
+    font-size: 60px;
+    padding-top: 206px;
+    padding-left: 62px;
+    font-weight: 600;
+}
+
+#texto-menusuperior{
+    font-size: 20px;
+    padding-top: 20px;
+    padding-left: 62px;
+    font-weight: 500;
+}
+
+#menuinformacional{
+    width: 1440px;
+    height: 229px;
+    background-color: #F9F9F9;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;    
+}
+
+.bignumber{
+    font-size: 40px;
+    font-weight: 600;
+    display:flex;
+    align-items: center;
+    padding: 80px 0px 0px 100px;
+}
+
+.textoinformativo{
+    font-size: 20px;
+    font-weight: 400;
+    padding: 0px 0px 0px 100px;
+}
+
+#secaoimagem{
+    width: 1440px;
+    height: 779px;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+#tituloimagem{
+    color: #000000;
+    padding-top: 304px;
+    font-size: 40px;
+    font-weight: 500;
+    margin-left: 77px;
+
+}
+#textoimagem{
+    color: #000000;
+    font-size: 24px;
+    font-weight: 300;
+    margin-left: 77px;
+}
+
+#imagem{
+    width: 510px;
+    height: 605px;
+    border-radius: 30px 0px 0px 0px;
+    padding-top: 82px;
+}
+
+#formulario{
+    width: 1440px;
+    height: 638px;
+    background-color: #303030;
+    text-align: center;
+}
+
+#titulo-formulario{
+    font-size: 32px;
+    color: #FFFFFF;
+    padding-top: 87px;
+    margin: 25px;
+}
+
+input{
+    Width: 508px;
+    Height: 72px;
+    background-color: #FFFFFF;
+    margin: 30px;
+    border: 0px;
+    border-radius: 10px;
+    font-size: 24px;
+    padding-left: 10px;
+}
+
+button{
+    Width: 286px;
+    Height: 74px;
+    background-color: #C07212;
+    color: #FFFFFF;
+    border: 0px;
+    border-radius: 10px;
+    font-size: 30px;
+    margin: 45px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #d38320;
+    color: white;
+    translate: translateY(-7px);
+    transition-duration: 0.5s;
+}
+
